@@ -32,4 +32,3 @@ yarn-error.log*
 .vercel
 
 .eslintrc.json
-next.config.js

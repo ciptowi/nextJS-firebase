@@ -84,7 +84,7 @@ export default function UpadatePhoto() {
               setIsEdit("done")
             })
             .catch((error) => {
-              console.log(error.message)
+              // console.log(error.message)
             });
         }
       );

@@ -1,0 +1,120 @@
+/* gameselection  */
+.Gameslider{
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+  color: black;
+}
+
+.Gameslider> div {
+  display: flex;
+  justify-content: center;
+}
+
+.Gameslider> div p {
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.Gameslider.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+  padding: 1rem;
+}
+
+.Gameslider.img {
+  width: 0%;
+  height: 50%;
+}
+
+@media screen and (max-width:940px) {
+  .Gameslider{
+      margin: 1rem 0;
+  }
+
+  .Gameslider> div p {
+      margin: 1rem;
+      font-size: 1rem;
+  }
+
+  .Gameslider.container {
+      grid-template-columns: 1fr;
+      grid-gap: .5rem;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .Gameslider> div p {
+      margin: 1rem .5rem;
+  }
+}
+
+.pilihan {
+  margin: 1rem .5rem;
+  height: 200px;
+  width: 250px;
+}
+
+/* about */
+.about {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #9492cc;
+}
+
+.about .container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1.2rem;
+}
+
+.about .col {
+  margin: auto;
+}
+
+.about h3 {
+  margin: .8rem 0;
+  color:black ;
+}
+
+.about p {
+  margin: .4rem 0;
+  color:black ;
+}
+
+/* background */
+.background {
+    background-image: url(https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height:fit-content;
+    width: fit-content;
+    /* opacity: 0.5; */
+}
+
+.second {
+    background-image: url(https://images.pexels.com/photos/5685087/pexels-photo-5685087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height:fit-content;
+    width: fit-content;
+}
+
+/* STYLE CSS MODULE YG DIPAKAI */
+.about {
+  background-color: #9492cc;
+}
+
+.imgCarousel{
+  display: flex;
+  width: 100%;
+  height: 40%;
+}
+
+.item{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  object-position: 20% 10%;
+}

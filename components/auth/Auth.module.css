@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.item_center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #8C9EFF, #9320ff, #d09eff) */
+}
+
+.btn_img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.form_card {
+    padding: 15px 20px;
+    background-color: white;    
+    min-width: 350px;
+    max-width: 400px;
+    height: 500px;
+    border: none;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.form_forgot {
+  padding: 15px 20px;
+  background-color: white;    
+  min-width: 300px;
+  max-width: 400px;
+  height: 280px;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+@media (max-width: 997px) {
+    .content {
+        display: none;
+    }
+    .form_card {
+      margin-left: 0;
+    }
+}
+

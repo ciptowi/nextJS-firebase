@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(135deg, #7f80ce, #4e31ce, #6500d8);
+  color: white;
+}
+
+.bg_navbar {
+  background: #631fe0;
+}
+
+.score_info {
+  font-size: 15px;
+  margin-left: 5px;
+  display: inline-flexbox;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.test {
+  text-align: center;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+.test2 {
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+}
+.active {
+  background-color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    margin: auto;
+    width: 25% !important;
+    /* padding: 48px !important; */
+    background-color: green;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg);
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner {
+    margin: auto;
+    width: 25% !important;
+    background-color: green;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg);
+  }
+}
+
+
+.swal-footer {
+  background-color: rgb(245, 248, 250);
+  margin-top: 32px;
+  border-top: 1px solid #E9EEF1;
+  overflow: hidden;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  border: 1px solid #a3dd82;
+  color: black;
+}
+
+.swal-text {
+  background-color: #FEFAE3;
+  padding: 17px;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #61534e;
+}
+
+.mt-6{
+  margin-top: 4rem !important;
+}
+
+.played-flag{
+  margin-top: -35px !important;
+  margin-bottom: 35px !important;
+  z-index: 100;
+  background-color: #E9EEF1;
+  width: 250px;
+  text-align: center;
+}
